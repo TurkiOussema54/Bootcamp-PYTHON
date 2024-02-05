@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter App</title>
+</head>
+<body>
+    <h1>Counter App</h1>
+    <p>Number of times you've visited this site: {{ visit_count }}</p>
+    
+    <form method="GET" action="/destroy_session">
+        <button type="submit">Reset</button>
+    </form>
+</body>
+</html>
